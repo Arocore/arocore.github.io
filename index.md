@@ -69,7 +69,15 @@ Retrieve crime statistics based on a specific location and radius in Sweden.
 
 ### Response:
 
-Returns a JSON object containing crime statistics for the specified location and time range.
+The endpoint returns a JSON array containing crime statistics for the specified location and time range. Each object in the array represents statistics for a specific crime category.
+
+### Response Object Structure:
+
+- **type**: The category or type of crime
+  
+- **count**: The number of reported events for this crime category in the specified location and time range.
+
+- **risk**: A calculated value representing the risk of this crime type occurring per day and square kilometer in the specified area.
 
 ### Example Request:
 
@@ -108,8 +116,6 @@ curl -H 'x-api-key: <your-api-key>' https://api.sinkabirum.se/location/stats\?la
 - If there's an internal server error, the API will return a `500` status code.
 
 ---
-
-e
 
 Continue exploring the documentation to learn more about other endpoints and functionalities as they become available.
 
