@@ -12,7 +12,6 @@ or just curious about crime trends in Sweden, our API is here to assist.
 Dive into the documentation to learn how to get started, understand the endpoints
 and integrate the Sinkabirum API into your projects.
 
----
 
 **Key Features**:
 - **Location-based Queries**: Retrieve crime data specific to a location or region.
@@ -22,15 +21,18 @@ and integrate the Sinkabirum API into your projects.
 
 Happy coding!
 
+
 ---
+
 
 ## Table of Contents
 
 - [Authentication](#authentication)
-  - [How to Authenticate](#how-to-authenticate)
 - [Endpoint: `/location/stats`](#endpoint-locationstats)
 
+
 ---
+
 
 ## Authentication
 
@@ -59,7 +61,9 @@ Replace `YOUR_API_KEY_HERE` with your actual API key.
 
 Ensure you manage your API key securely and do not exceed the allowed request rate to ensure uninterrupted access.
 
+
 ---
+
 
 ## Endpoint: `/location/stats`
 
@@ -125,7 +129,9 @@ curl -H 'x-api-key: <your-api-key>' https://api.sinkabirum.se/location/stats\?la
 - If `lat`, `lng`, or `radius` parameters are missing or not numbers, the API will return a `400` status code.
 - If there's an internal server error, the API will return a `500` status code.
 
+
 ---
+
 
 Continue exploring the documentation to learn more about other endpoints and functionalities as they become available.
 
