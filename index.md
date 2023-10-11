@@ -3,8 +3,6 @@ layout: default
 title: Home
 ---
 
-# Sinkabirum API Reference
-
 Welcome to the Sinkabirum API documentation. 
 
 Sinkabirum offers a powerful API designed to provide quick and efficient location-based
