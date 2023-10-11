@@ -96,7 +96,7 @@ The endpoint returns a JSON array containing crime statistics for the specified 
 ### Example Request:
 
 ```bash
-curl -H 'x-api-key: <your-api-key>' https://api.sinkabirum.se/location/stats\?lat\=59.325102\&lng\=18.071411\&radius\=1000\&from\=2020-12-01T00:00:00\&to\=2020-12-31T23:59:00
+curl -H 'x-api-key: YOUR_API_KEY_HERE' https://api.sinkabirum.se/location/stats\?lat\=59.325102\&lng\=18.071411\&radius\=1000\&from\=2020-12-01\&to\=2020-12-31
 ```
 
 ```json
