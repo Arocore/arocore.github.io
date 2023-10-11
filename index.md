@@ -22,6 +22,16 @@ and integrate the Sinkabirum API into your projects.
 
 Happy coding!
 
+---
+
+## Table of Contents
+
+- [Authentication](#authentication)
+  - [How to Authenticate](#how-to-authenticate)
+- [Endpoint: `/location/stats`](#endpoint-locationstats)
+
+---
+
 ## Authentication
 
 All API endpoints require authentication using an API key. This ensures that only authorized users can access the data and helps prevent abuse.
